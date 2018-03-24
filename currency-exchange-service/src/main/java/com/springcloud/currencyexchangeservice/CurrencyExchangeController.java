@@ -29,7 +29,7 @@ public class CurrencyExchangeController {
         exchangeValue.setPort(
                 Integer.parseInt(environment.getProperty("local.server.port")));
 
-        logger.info("{}", exchangeValue);
+        logger.info("{}", exchangeValue.toString());
 
         return exchangeValue;
     }
